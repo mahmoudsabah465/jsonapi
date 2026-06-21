@@ -2,8 +2,8 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/ASHAQ",
-      "destination": "http://172.236.195.34:80/ASHAQ"
+      "source": "/(.*)",
+      "destination": "http://172.236.195.34:80/$1"
     }
   ]
 }
